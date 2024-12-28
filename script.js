@@ -13,6 +13,6 @@ function insert_Row() {
     newrow.innerHTML = "<td>New Cell1</td><td>New Cell2</td>";
 
     // Insert the row at the top
-    elem.insertBefore(newrow, elem.rows[0]);
+    elem.insertBefore(newrow, firstChild);
   
 }
